@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "project",
+  "info": {
+    "singularName": "projects",
+    "pluralName": "project",
+    "displayName": "projects-slider",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "short": {
+      "type": "text"
+    },
+    "location": {
+      "type": "string"
+    },
+    "dates": {
+      "type": "string"
+    },
+    "project_description": {
+      "type": "blocks"
+    }
+  }
+}
