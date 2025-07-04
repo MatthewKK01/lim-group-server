@@ -50,6 +50,16 @@
     },
     "direction_text": {
       "type": "string"
+    },
+    "mobile_img": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
     }
   }
 }
